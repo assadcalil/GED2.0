@@ -7,10 +7,10 @@ error_reporting(E_ALL);
 
 // Verificar se as configurações já foram incluídas
 if (!defined('ROOT_DIR')) {
-    require_once __DIR__ . '/../config/config.php';
-    require_once __DIR__ . '/../config/database.php';
-    require_once __DIR__ . '/../config/auth.php';
-    require_once __DIR__ . '/../config/log.php';
+    require_once __DIR__ . '/.././../app/Config/App.php';
+    require_once __DIR__ . '/.././../app/Config/Database.php';
+    require_once __DIR__ . '/.././../app/Config/Auth.php';
+    require_once __DIR__ . '/.././../app/Config/Logger.php';
 }
 
 // Verificar autenticação

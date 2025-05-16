@@ -1,0 +1,110 @@
+[2025-05-13 10:10:11] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:25:16] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:27:19] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:32:11] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:32:24] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:34:22] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:34:46] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:36:01] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:36:07] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:39:30] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 10:43:10] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 10:51:11] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 11:01:29] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 11:01:33] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 11:03:39] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 11:08:09] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 11:09:13] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 11:18:47] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-13 13:50:19] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:29:43] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:02] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:03] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:04] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:05] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:05] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:05] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:05] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:30:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:03] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:05] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:06] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:07] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:08] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:47:09] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:52:20] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:52:22] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:52:24] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:52:26] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:52:31] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:55:13] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:56:51] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:58:21] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 15:59:03] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:01:30] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:01:34] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:02:03] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:02:23] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:02:26] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:02:28] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:05:51] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:06:04] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:06:15] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:06:18] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:11:42] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:11:44] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-13 16:22:44] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 07:39:25] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 07:41:46] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250513_H020555_NT0539494416.ret - Total: R$ 200,00 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 07:47:24] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 07:47:26] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 07:54:18] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 07:54:28] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:01:53] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250512_H023812_NT0539402272.ret - Total: R$ 1.870,00 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:13:01] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:13:11] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 604, Nosso Número: 20250604 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:13:11] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250509_H022056_NT0539247187.ret - Total: R$ 400,00 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:15:14] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:15:27] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 597, Nosso Número: 20250597 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:15:27] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250508_H021618_NT0539155693.ret - Total: R$ 550,00 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:16:53] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:16:56] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:24:25] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:24:41] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 601, Nosso Número: 20250601 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:24:41] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 602, Nosso Número: 20250602 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:24:41] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250507_H021729_NT0539059115 (1).ret - Total: R$ 1.225,58 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:26:49] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250513_H020555_NT0539494416.ret - Total: R$ 200,00 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:53:33] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:53:34] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:57:45] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 601, Nosso Número: 20250601 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:57:45] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 602, Nosso Número: 20250602 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:44] [192.168.10.11] [1] [info] email: Notificação de pagamento enviada: Cliente #AVULSO - LUIZ FELIPE MACHADO DEUCHER  - R$ 100,00 - Email enviado para: cestrela.cancelar@terra.com.br | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:44] [192.168.10.11] [1] [info] email: Notificação de pagamento: Cliente #AVULSO - LUIZ FELIPE MACHADO DEUCHER  - R$ 100,00 - Email para: cestrela.cancelar@terra.com.br - Falha | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:45] [192.168.10.11] [1] [info] email: Notificação de pagamento enviada: Cliente #AVULSO - ERICA TABATA DEUCHER  - R$ 100,00 - Email enviado para: cestrela.cancelar@terra.com.br | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:45] [192.168.10.11] [1] [info] email: Notificação de pagamento: Cliente #AVULSO - ERICA TABATA DEUCHER  - R$ 100,00 - Email para: cestrela.cancelar@terra.com.br - Falha | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:46] [192.168.10.11] [1] [info] email: Notificação de pagamento enviada: Cliente #AVULSA - PRISCILA DE CARVALHO RAMOS PIPPA - R$ 150,00 - Email enviado para: cestrela.cancelar@terra.com.br | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:46] [192.168.10.11] [1] [info] email: Notificação de pagamento: Cliente #AVULSA - PRISCILA DE CARVALHO RAMOS PIPPA - R$ 150,00 - Email para: cestrela.cancelar@terra.com.br - Falha | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:47] [192.168.10.11] [1] [info] email: Notificação de pagamento enviada: Cliente #AVULSO - KAZUMI WATANABE - R$ 300,00 - Email enviado para: cestrela.cancelar@terra.com.br | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:47] [192.168.10.11] [1] [info] email: Notificação de pagamento: Cliente #AVULSO - KAZUMI WATANABE - R$ 300,00 - Email para: cestrela.cancelar@terra.com.br - Falha | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:58:47] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250502_H024355_NT0538725391.ret - Total: R$ 650,00 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:59:32] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 601, Nosso Número: 20250601 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:59:32] [192.168.10.11] [1] [info] aviso: Imposto não encontrado: ID 602, Nosso Número: 20250602 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:59:32] [192.168.10.11] [1] [info] email: SIMULAÇÃO DE ENVIO: Notificação para Cliente #1528 - MARIA JOSE MARTA RIBEIRO DO VAL - R$ 612,79 - Email seria enviado para: cestrela.cancelar@terra.com.br | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:59:32] [192.168.10.11] [1] [info] email: Notificação de pagamento: Cliente #1528 - MARIA JOSE MARTA RIBEIRO DO VAL - R$ 612,79 - Email para: cestrela.cancelar@terra.com.br - Enviado | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:59:32] [192.168.10.11] [1] [info] email: SIMULAÇÃO DE ENVIO: Notificação para Cliente #1528 - SERGIO RIBEIRO DO VAL - R$ 612,79 - Email seria enviado para: cestrela.cancelar@terra.com.br | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:59:32] [192.168.10.11] [1] [info] email: Notificação de pagamento: Cliente #1528 - SERGIO RIBEIRO DO VAL - R$ 612,79 - Email para: cestrela.cancelar@terra.com.br - Enviado | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 08:59:32] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250507_H021729_NT0539059115 (1).ret - Total: R$ 1.225,58 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 16:12:37] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 16:12:39] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 16:12:46] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 16:42:21] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-14 16:42:25] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-16 14:31:30] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-16 14:31:35] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-16 14:31:40] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}

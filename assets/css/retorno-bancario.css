@@ -1,0 +1,185 @@
+        .upload-area {
+            background-color: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+            transition: all 0.3s;
+        }
+        
+        .upload-area:hover {
+            border-color: #3498db;
+            background-color: #e9f7fe;
+        }
+        
+        .upload-icon {
+            font-size: 48px;
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+        
+        .custom-file-upload {
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        .custom-file-upload:hover {
+            background: #2980b9;
+        }
+        
+        #fileUploadForm {
+            margin-bottom: 30px;
+        }
+        
+        .nav-tabs .nav-link.active {
+            font-weight: 600;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        .status-badge {
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+        
+        .history-card {
+            transition: all 0.3s;
+            border-left: 4px solid #3498db;
+        }
+        
+        .history-card:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .file-info {
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .result-table th {
+            background-color: #f5f5f5;
+        }
+        
+        .result-card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .result-header {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            padding: 15px 20px;
+        }
+        
+        .result-body {
+            padding: 20px;
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #e9ecef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            color: #3498db;
+            font-weight: bold;
+        }
+        
+        .payment-row-success {
+            background-color: rgba(40, 167, 69, 0.1);
+        }
+        
+        .payment-row-danger {
+            background-color: rgba(220, 53, 69, 0.1);
+        }
+        
+        .payment-row-warning {
+            background-color: rgba(255, 193, 7, 0.1);
+        }
+
+        @media print {
+        /* Esconder elementos não desejados na impressão */
+        .dashboard-container .sidebar,
+        .dashboard-container .header,
+        .dashboard-footer,
+        .btn,
+        .nav-tabs,
+        .page-header {
+            display: none !important;
+        }
+        
+        /* Ajustar o conteúdo para impressão */
+        .main-content {
+            margin-left: 0 !important;
+            width: 100% !important;
+        }
+        
+        /* Layout específico para impressão */
+        .print-header {
+            display: block !important;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .print-footer {
+            display: block !important;
+            text-align: right;
+            margin-top: 20px;
+            font-size: 11px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        
+        /* Ajustar a tabela para impressão */
+        #paymentsTable th, 
+        #paymentsTable td {
+            font-size: 11px !important;
+            padding: 5px !important;
+        }
+        
+        /* Esconder colunas desnecessárias para impressão */
+        #paymentsTable th:nth-child(6), 
+        #paymentsTable td:nth-child(6),
+        #paymentsTable th:nth-child(7), 
+        #paymentsTable td:nth-child(7) {
+            display: none;
+        }
+    }
+    
+    /* Elementos ocultos normalmente, mostrados apenas na impressão */
+    .print-only {
+        display: none;
+    }
+        
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            
+            .container-fluid {
+                width: 100%;
+                max-width: 100%;
+            }
+        }

@@ -3376,3 +3376,149 @@
 [2025-05-05 10:47:23] [192.168.10.11] [1] [info] email: Email de notificação enviado para cestrela.cancelar@terra.com.br sobre cadastro de certificado ID: 137 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
 [2025-05-05 10:47:23] [192.168.10.11] [1] [info] email: E-mail de notificação enviado com sucesso para certificado ID: 137 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
 [2025-05-05 10:47:23] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:03:16] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:03:43] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:03:49] [192.168.10.11] [1] [info] form_submit: Formulário de certificado digital submetido | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:03:49] [192.168.10.11] [1] [info] buscar_empresa: Buscando dados da empresa: 2090 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:03:49] [192.168.10.11] [1] [info] Empresa encontrada: MAKO CALCADOS E ARTIGOS ESPORTIVOS LTDA (2090)
+[2025-05-05 15:03:49] [192.168.10.11] [1] [info] Email da empresa usado como destinatário: 2090@terra.com.br
+[2025-05-05 15:03:52] [192.168.10.11] [1] [info] form_submit: Formulário de certificado digital submetido | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:03:52] [192.168.10.11] [1] [info] buscar_empresa: Buscando dados da empresa: 1380 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:03:52] [192.168.10.11] [1] [info] Empresa encontrada: K.H.M.O. CALCADOS LTDA (1380)
+[2025-05-05 15:03:52] [192.168.10.11] [1] [info] Email da empresa usado como destinatário: kaius@terra.com.br
+[2025-05-05 15:04:55] [192.168.10.11] [1] [info] form_submit: Formulário de certificado digital submetido | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:04:55] [192.168.10.11] [1] [info] buscar_empresa: Buscando dados da empresa: 1380 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:04:55] [192.168.10.11] [1] [info] Empresa encontrada: K.H.M.O. CALCADOS LTDA (1380)
+[2025-05-05 15:04:55] [192.168.10.11] [1] [info] iniciar_envio: Tentativa de envio de certificado | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:04:55] [192.168.10.11] [1] [info] Preparando envio de certificado para K.H.M.O. CALCADOS LTDA | Contexto: {"tipo":"e-CNPJ A1","arquivo":"1380 K H M O CALCADOS - 12345678 - 25.03.2026.pfx","destinatarios":"cestrela.fiscal@terra.com.br"}
+[2025-05-05 15:04:55] [192.168.10.11] [1] [debug] Dados para envio de email | Contexto: {"dadosFormulario":{"emp_code":"1380","certificado_tipo":"e-CNPJ A1","data_renovacao":"2025-03-25","certificado_vencimento":"2026-03-25","senha_certificado":"12345678","emails_destinatario":"cestrela.fiscal@terra.com.br","emp_name":"K.H.M.O. CALCADOS LTDA","emp_cnpj":"03.641.815\/0001-48","arquivo_certificado":{"name":"1380 K H M O CALCADOS - 12345678 - 25.03.2026.pfx","type":"application\/x-pkcs12","tmp_name":"C:\\Windows\\Temp\\php8E.tmp","error":0,"size":3877}},"dadosParaEnvio":{"emp_code":"1380","certificado_tipo":"e-CNPJ A1","data_renovacao":"2025-03-25","certificado_vencimento":"2026-03-25","senha_certificado":"12345678","emails_destinatario":"cestrela.fiscal@terra.com.br","emp_name":"K.H.M.O. CALCADOS LTDA","emp_cnpj":"03.641.815\/0001-48","arquivo_certificado":{"name":"1380 K H M O CALCADOS - 12345678 - 25.03.2026.pfx","type":"application\/x-pkcs12","tmp_name":"C:\\Windows\\Temp\\php8E.tmp","error":0,"size":3877},"tipo_certificado":"e-CNPJ A1"}}
+[2025-05-05 15:05:03] [192.168.10.11] [1] [info] certificado: envio - Certificado enviado com sucesso para K.H.M.O. CALCADOS LTDA | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:05:03] [192.168.10.11] [1] [debug] Parâmetros preparados para atualização do certificado | Contexto: {"sql":"INSERT INTO certificado_digital \r\n                    (emp_code, emp_name, certificado_tipo, certificado_categoria, \r\n                     certificado_emissao, certificado_validade, certificado_situacao, \r\n                     certificado_titular, updated_at)\r\n                    VALUES \r\n                    (:emp_code, :emp_name, :tipo, :categoria, \r\n                     :emissao, :validade, :situacao, \r\n                     :titular, NOW())\r\n                    ON DUPLICATE KEY UPDATE \r\n                    certificado_tipo = :tipo,\r\n                    certificado_categoria = :categoria,\r\n                    certificado_emissao = :emissao,\r\n                    certificado_validade = :validade,\r\n                    certificado_situacao = :situacao,\r\n                    updated_at = NOW()","params":{":emp_code":"1380",":emp_name":"K.H.M.O. CALCADOS LTDA",":tipo":"A1",":categoria":"E-CNPJ",":emissao":"2025-03-25",":validade":"2026-03-25",":situacao":"VIGENTE",":titular":"K.H.M.O. CALCADOS LTDA"},"dadosOriginal":{"tipo":"e-CNPJ A1","categoria":"A1","emissao":"2025-03-25","validade":"2026-03-25","situacao":"Vigente"}}
+[2025-05-05 15:05:03] [192.168.10.11] [1] [info] envio_sucesso: Certificado enviado com sucesso para K.H.M.O. CALCADOS LTDA | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:14:57] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:14:58] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 15:14:58] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:01:43] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:01:46] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:02:35] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:31:53] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:31:57] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:33:02] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de certificado digital | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:33:26] [192.168.10.11] [1] [info] empresa: Consultou empresa por código: 2132 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:34:05] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de certificado digital | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:34:10] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:34:12] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:34:20] [192.168.10.11] [1] [info] certificado: Cadastrou certificado digital ID: 138 para empresa ID: 260 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:38:39] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:38:41] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de certificado digital | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:38:45] [192.168.10.11] [1] [info] empresa: Consultou empresa por código: 2132 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:39:02] [192.168.10.11] [1] [info] certificado: Cadastrou certificado digital ID: 139 para empresa ID: 260 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:39:08] [192.168.10.11] [1] [info] email: Email de notificação enviado para cestrela.cancelar@terra.com.br sobre cadastro de certificado ID: 139 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:39:08] [192.168.10.11] [1] [info] email: E-mail de notificação enviado com sucesso para certificado ID: 139 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:39:08] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:41:24] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de certificado digital | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:41:28] [192.168.10.11] [1] [info] empresa: Consultou empresa por código: 2132 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:47:17] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:47:18] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de certificado digital | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:47:25] [192.168.10.11] [1] [info] empresa: Consultou empresa por código: 2132 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:47:39] [192.168.10.11] [1] [info] certificado: Cadastrou certificado digital ID: 140 para empresa ID: 260 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:47:42] [192.168.10.11] [1] [info] email: Email de notificação enviado para cestrela.cancelar@terra.com.br sobre cadastro de certificado ID: 140 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:47:42] [192.168.10.11] [1] [info] email: E-mail de notificação enviado com sucesso para certificado ID: 140 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:47:42] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:53:02] [192.168.10.11] [1] [info] form_submit: Formulário de certificado digital submetido | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:53:02] [192.168.10.11] [1] [info] buscar_empresa: Buscando dados da empresa: 2089 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:53:02] [192.168.10.11] [1] [info] Empresa encontrada: JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA (2089)
+[2025-05-05 16:53:02] [192.168.10.11] [1] [info] Email da empresa usado como destinatário: 2089@terra.com.br
+[2025-05-05 16:54:12] [192.168.10.11] [1] [info] form_submit: Formulário de certificado digital submetido | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:54:12] [192.168.10.11] [1] [info] buscar_empresa: Buscando dados da empresa: 2089 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:54:12] [192.168.10.11] [1] [info] Empresa encontrada: JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA (2089)
+[2025-05-05 16:54:12] [192.168.10.11] [1] [info] iniciar_envio: Tentativa de envio de certificado | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:54:12] [192.168.10.11] [1] [info] Preparando envio de certificado para JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA | Contexto: {"tipo":"e-CNPJ A1","arquivo":"2089 JD SP II - EMPREENDIMENTOS - 05.05.2026 - 12345678.pfx","destinatarios":"cestrela@terra.com.br, cestrela.diretoria@terra.com.br, cestrela.financeiro@terra.com.br, cestrela.tesouraria@terra.com.br, cestrela.visitadores@terra.com.br, cestrela.expediente@terra.com.br, cestrela.fiscal@terra.com.br, cestrela.iss@terra.com.br, cestrela.dp@terra.com.br, cestrela.dp2@terra.com.br, cestrela.dp4@terra.com.br, cestrela.contabil@terra.com.br, meucontador@terra.com.br"}
+[2025-05-05 16:54:12] [192.168.10.11] [1] [debug] Dados para envio de email | Contexto: {"dadosFormulario":{"emp_code":"2089","certificado_tipo":"e-CNPJ A1","data_renovacao":"2025-05-05","certificado_vencimento":"2026-05-05","senha_certificado":"12345678","emails_destinatario":"cestrela@terra.com.br, cestrela.diretoria@terra.com.br, cestrela.financeiro@terra.com.br, cestrela.tesouraria@terra.com.br, cestrela.visitadores@terra.com.br, cestrela.expediente@terra.com.br, cestrela.fiscal@terra.com.br, cestrela.iss@terra.com.br, cestrela.dp@terra.com.br, cestrela.dp2@terra.com.br, cestrela.dp4@terra.com.br, cestrela.contabil@terra.com.br, meucontador@terra.com.br","emp_name":"JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA","emp_cnpj":"46.269.550\/0001-01","arquivo_certificado":{"name":"2089 JD SP II - EMPREENDIMENTOS - 05.05.2026 - 12345678.pfx","type":"application\/x-pkcs12","tmp_name":"C:\\Windows\\Temp\\phpC7E.tmp","error":0,"size":4084}},"dadosParaEnvio":{"emp_code":"2089","certificado_tipo":"e-CNPJ A1","data_renovacao":"2025-05-05","certificado_vencimento":"2026-05-05","senha_certificado":"12345678","emails_destinatario":"cestrela@terra.com.br, cestrela.diretoria@terra.com.br, cestrela.financeiro@terra.com.br, cestrela.tesouraria@terra.com.br, cestrela.visitadores@terra.com.br, cestrela.expediente@terra.com.br, cestrela.fiscal@terra.com.br, cestrela.iss@terra.com.br, cestrela.dp@terra.com.br, cestrela.dp2@terra.com.br, cestrela.dp4@terra.com.br, cestrela.contabil@terra.com.br, meucontador@terra.com.br","emp_name":"JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA","emp_cnpj":"46.269.550\/0001-01","arquivo_certificado":{"name":"2089 JD SP II - EMPREENDIMENTOS - 05.05.2026 - 12345678.pfx","type":"application\/x-pkcs12","tmp_name":"C:\\Windows\\Temp\\phpC7E.tmp","error":0,"size":4084},"tipo_certificado":"e-CNPJ A1"}}
+[2025-05-05 16:54:18] [192.168.10.11] [1] [info] certificado: envio - Certificado enviado com sucesso para JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-05 16:54:18] [192.168.10.11] [1] [debug] Parâmetros preparados para atualização do certificado | Contexto: {"sql":"INSERT INTO certificado_digital \r\n                    (emp_code, emp_name, certificado_tipo, certificado_categoria, \r\n                     certificado_emissao, certificado_validade, certificado_situacao, \r\n                     certificado_titular, updated_at)\r\n                    VALUES \r\n                    (:emp_code, :emp_name, :tipo, :categoria, \r\n                     :emissao, :validade, :situacao, \r\n                     :titular, NOW())\r\n                    ON DUPLICATE KEY UPDATE \r\n                    certificado_tipo = :tipo,\r\n                    certificado_categoria = :categoria,\r\n                    certificado_emissao = :emissao,\r\n                    certificado_validade = :validade,\r\n                    certificado_situacao = :situacao,\r\n                    updated_at = NOW()","params":{":emp_code":"2089",":emp_name":"JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA",":tipo":"A1",":categoria":"E-CNPJ",":emissao":"2025-05-05",":validade":"2026-05-05",":situacao":"VIGENTE",":titular":"JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA"},"dadosOriginal":{"tipo":"e-CNPJ A1","categoria":"A1","emissao":"2025-05-05","validade":"2026-05-05","situacao":"Vigente"}}
+[2025-05-05 16:54:18] [192.168.10.11] [1] [info] envio_sucesso: Certificado enviado com sucesso para JD SP II - EMPREENDIMENTO IMOBILIARIO SPE LTDA | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 07:15:09] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 07:28:12] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 07:28:12] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 07:28:12] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:28:31] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:29:46] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:29:47] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:29:48] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:29:48] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:29:51] [192.168.10.11] [1] [info] acesso: Acessou o formulário de criação de newsletter | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:31:33] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:32:06] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:32:32] [192.168.10.11] [1] [info] acesso: Acessou o gerenciamento de assinantes | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:56:33] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:56:37] [192.168.10.11] [1] [info] acesso: Acessou o formulário de criação de newsletter | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 08:56:40] [192.168.10.11] [1] [info] acesso: Acessou o gerenciamento de assinantes | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:06:44] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:06:46] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:06:47] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:06:52] [192.168.10.11] [1] [info] acesso: Acessou o formulário de criação de newsletter | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:06:54] [192.168.10.11] [1] [info] acesso: Acessou o gerenciamento de assinantes | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:07:36] [192.168.10.11] [1] [info] acesso: Acessou o formulário de criação de newsletter | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:14:28] [192.168.10.11] [1] [info] acesso: Acessou o gerenciamento de assinantes | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:14:33] [192.168.10.11] [1] [info] acesso: Acessou o formulário de criação de newsletter | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:14:34] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:14:39] [192.168.10.11] [1] [info] acesso: Acessou o gerenciamento de assinantes | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:53:52] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 09:54:23] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 10:41:44] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 10:42:20] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 10:42:24] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 10:46:48] [192.168.10.11] [1] [info] acesso: Acessou a listagem de newsletters | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:17] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:19] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:21] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:21] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:21] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:21] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-06 16:16:21] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-09 16:38:41] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-09 16:39:45] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-09 16:40:15] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":"Administrador","ip":"192.168.10.11"}
+[2025-05-12 08:21:40] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 08:21:50] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 08:21:55] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 09:08:28] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:04:55] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:21:58] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:22:01] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:22:08] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:22:14] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:22:26] [192.168.10.11] [1] [info] financeiro: Processou arquivo de retorno: GCB_MZ_BEC2_RTC240_B6W4Y2_D250506_H021059_NT0538966597 (1).ret - Total: R$ 804,13 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:24:12] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:24:23] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:24:28] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:24:35] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:20] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:23] [192.168.10.11] [1] [info] acesso: Acessou o formulário de cadastro de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:24] [192.168.10.11] [1] [info] acesso: Acessou a listagem de usuários | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:27] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:30] [192.168.10.11] [1] [info] acesso: Acessou a listagem de empresas | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:32] [192.168.10.11] [1] [info] visualização: Visualizou detalhes da empresa ID: 257 | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:39] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:46] [192.168.10.11] [1] [info] acesso: Visualizou dados do cliente ADILSON PINTO SILVEIRA | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:41:55] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:02] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:04] [192.168.10.11] [1] [info] acesso: Visualizou dados do cliente GABRIELLA NOGUEIRA PERES | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:17] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:20] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:25] [192.168.10.11] [1] [info] acesso: Acessou a listagem de certificados digitais | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:29] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:35] [192.168.10.11] [1] [info] acesso: Acessou a listagem geral de impostos de renda | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:37] [192.168.10.11] [1] [info] acesso: Visualizou dados do cliente GABRIELLA NOGUEIRA PERES | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:43] [192.168.10.11] [1] [info] acesso: Geração de boleto CEF | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:42:43] [192.168.10.11] [1] [info] boleto: Recuperou boleto existente para cliente GABRIELLA NOGUEIRA PERES (ID: 14) | Contexto: {"usuario":1,"ip":"192.168.10.11"}
+[2025-05-12 15:51:11] [192.168.10.11] [1] [info] acesso: Visualizou o dashboard | Contexto: {"usuario":1,"ip":"192.168.10.11"}

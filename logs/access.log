@@ -2087,3 +2087,57 @@
 [2025-05-05 10:24:37] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/views/controllers/empresas_controller.php?acao=buscar_por_codigo&codigo=2131 | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
 [2025-05-05 10:24:37] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/views/controllers/empresas_controller.php?acao=buscar_por_codigo&codigo=2131 | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
 [2025-05-05 10:24:37] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/views/controllers/empresas_controller.php?acao=buscar_por_codigo&codigo=2131 | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-05 15:03:00] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-05 15:03:16] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-05 15:03:16] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-05 16:01:38] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-05 16:01:43] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-05 16:01:43] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-06 07:15:03] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-06 07:15:09] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-06 07:15:09] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-06 08:28:31] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-06 08:28:31] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-06 08:29:51] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-noticias.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 08:29:51] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-ir.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 08:29:51] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-dicas.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 08:29:51] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-default.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 08:56:37] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-default.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 08:56:37] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-noticias.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 08:56:37] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-ir.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 08:56:37] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-dicas.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:06:52] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-default.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:06:52] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-noticias.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:06:52] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-ir.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:06:52] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-dicas.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:07:36] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-default.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:07:36] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-ir.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:07:36] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-noticias.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:07:36] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-dicas.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:14:33] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-default.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:14:33] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-ir.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:14:33] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-dicas.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:14:33] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/newsletter/template-noticias.jpg | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 09:53:48] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-06 09:53:52] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-06 09:53:52] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-06 10:41:38] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-06 10:41:44] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-06 10:41:44] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-06 15:20:43] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-06 15:20:44] [192.168.10.11] [1] [info] Acesso automático: Login por cookie para usuário ID: 1
+[2025-05-06 15:20:44] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/ | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-06 16:16:17] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-06 16:16:17] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-07 13:57:31] [192.168.10.11] [1] [info] Acesso automático: Login por cookie para usuário ID: 1
+[2025-05-07 13:57:31] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/user-avatar.png | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-07 13:58:42] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/assets/img/user-avatar.png | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-12 08:21:40] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-12 08:21:40] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-12 09:08:22] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-12 09:08:28] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-12 09:08:28] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-12 15:04:55] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-12 15:04:55] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-12 15:24:33] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/views/profile/profile.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-12 15:42:07] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/views/tax/viewBoletoArmazenado.php?id=1 | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}

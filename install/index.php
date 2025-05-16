@@ -48,7 +48,7 @@ EOT;
     }
     
     // Salvar o arquivo de configuração
-    return file_put_contents(__DIR__ . '/../config/db_config.php', $configContent) !== false;
+    return file_put_contents(__DIR__ . '/.././../app/Config/Database.php', $configContent) !== false;
 }
 
 // Processar formulário
